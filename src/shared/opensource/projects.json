@@ -2,24 +2,23 @@
     "data": [
         {
             "id": 1,
-            "name": "Video-Converter",
-            "url": "https://github.com/dineshnadimpalli/Video-Converter",
-            "description": "A simple cross-platform desktop app to convert one video format to another with simple UI using ElectronJs",
+            "name": "Mern Fullstack",
+            "url": "https://github.com/miranaitamara/here-server-MERN-FullStack",
+            "description": "A simple Web app using React Node MySQL Framework",
             "languages": [
                 {
                     "name": "JavaScript",
                     "iconifyClass": "logos-javascript"
                 },
                 {
-                    "name": "ElectronJs",
-                    "iconifyClass": "simple-icons:electron",
-                    "style": {
-                        "color": "#61DAFB",
-                        "backgroundColor": "#2c2e39",
-                        "borderRadius": "50px",
-                        "padding": "5px"
-                    }
+                    "name": "NodeJS",
+                    "iconifyClass": "simple-icons:node-dot-js"
                 },
+                {
+                    "name": "MySQL",
+                    "iconifyClass": "logos:mysql"
+                },
+               
                 {
                     "name": "ReactJs",
                     "iconifyClass": "simple-icons:react",
@@ -42,23 +41,17 @@
         },
         {
             "id": 2,
-            "name": "TaskTimer-Toolbar_Extension",
-            "url": "https://github.com/dineshnadimpalli/TaskTimer-Toolbar_Extension",
-            "description": "A cross-platform timer app to track time while doing tasks which is acts as a desktop toolbar extension",
+            "name": "SurveyJS-React",
+            "url": "https://github.com/miranaitamara/SurveyJS-React",
+            "description": "A React quickstart boilerplate for SurveyJS",
             "languages": [
                 {
                     "name": "JavaScript",
                     "iconifyClass": "logos-javascript"
                 },
                 {
-                    "name": "ElectronJs",
-                    "iconifyClass": "simple-icons:electron",
-                    "style": {
-                        "color": "#61DAFB",
-                        "backgroundColor": "#2c2e39",
-                        "borderRadius": "50px",
-                        "padding": "5px"
-                    }
+                    "name": "NodeJS",
+                    "iconifyClass": "simple-icons:node-dot-js"
                 },
                 {
                     "name": "ReactJs",
@@ -73,18 +66,14 @@
                 {
                     "name": "Webpack",
                     "iconifyClass": "logos:webpack"
-                },
-                {
-                    "name": "Redux",
-                    "iconifyClass": "logos:redux"
                 }
             ]
         },
         {
             "id": 3,
-            "name": "findGithubJobs",
-            "url": "https://github.com/dineshnadimpalli/findGithubJobs",
-            "description": "A Javascript based web app to show the list of jobs posted on Github using Redis, React and NodeJS with Express",
+            "name": "Movie Application",
+            "url": "https://github.com/miranaitamara/Movie-Application",
+            "description": "A Javascript based web app to show the list of movies using React and Redux",
             "languages": [
                 {
                     "name": "JavaScript",
@@ -108,9 +97,36 @@
         },
         {
             "id": 4,
-            "name": "React-Redux-Calculator",
-            "url": "https://github.com/dineshnadimpalli/React-Redux-Calculator",
-            "description": "A simple calculator using react, redux and mathjs",
+            "name": "Tetris Game",
+            "url": "https://github.com/miranaitamara/Tetris-Game",
+            "description": "A simple game using react and CSS",
+            "languages": [
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "ReactJs",
+                    "iconifyClass": "simple-icons:react",
+                    "style": {
+                        "color": "#61DAFB",
+                        "backgroundColor": "#2c2e39",
+                        "borderRadius": "50px",
+                        "padding": "5px"
+                    }
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos:css-3"
+                }
+                
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Vacation",
+            "url": "https://github.com/miranaitamara/Vacation",
+            "description": "Vacation App is a Website App that allows clients to register, view vacations and add those vacations to their account, This app (will)includes an admin section that will be able to view user profiles with their added vacations, add vacations, make vacations unavailable, view statistics and etc.",
             "languages": [
                 {
                     "name": "JavaScript",
@@ -129,43 +145,38 @@
                 {
                     "name": "Redux",
                     "iconifyClass": "logos:redux"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Javascript-QuoteGenerator",
-            "url": "https://github.com/dineshnadimpalli/Javascript-QuoteGenerator",
-            "description": "QuoteGenerator is a WebApp to generate a random and awesome quotes of all time",
-            "languages": [
-                {
-                    "name": "JavaScript",
-                    "iconifyClass": "logos-javascript"
                 },
                 {
-                    "name": "HTML",
-                    "iconifyClass": "logos:html-5"
+                    "name": "NodeJS",
+                    "iconifyClass": "simple-icons:node-dot-js"
                 },
                 {
-                    "name": "CSS",
-                    "iconifyClass": "logos:css-3"
+                    "name": "MySQL",
+                    "iconifyClass": "logos:mysql"
                 }
             ]
         },
         {
             "id": 6,
-            "name": "Local-Weather-App",
-            "url": "https://github.com/dineshnadimpalli/Local-Weather-App",
-            "description": "A Simple interface to detect your location and to show minimum weather information",
+            "name": "Ecommerce shopping cart",
+            "url": "https://github.com/miranaitamara/ecommerce-shopping-cart",
+            "description": "Ecommerce shopping cart : An ECommerce Website like Alibaba.com",
             "languages": [
                 {
                     "name": "JavaScript",
                     "iconifyClass": "logos-javascript"
                 },
                 {
-                    "name": "HTML",
-                    "iconifyClass": "logos:html-5"
+                    "name": "ReactJs",
+                    "iconifyClass": "simple-icons:react",
+                    "style": {
+                        "color": "#61DAFB",
+                        "backgroundColor": "#2c2e39",
+                        "borderRadius": "50px",
+                        "padding": "5px"
+                    }
                 },
+               
                 {
                     "name": "CSS",
                     "iconifyClass": "logos:css-3"

@@ -8,44 +8,44 @@ const settings = {
 
 //Home Page
 const greeting = {
-	title: "Dinesh Nadimpalli",
-	logo_name: "DineshNadimpalli",
+	title: "Ryma Nait Amara",
+	logo_name: "RymaNaitamara",
 	// nickname: "layman_brother",
 	subTitle:
 		"A self-motivated and passionate individual who loves to code👨🏻‍💻, build🛠 and colloborate🤝 in creating software products that creates impact",
 	resumeLink:
-		"https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+		"https://drive.google.com/file/d/1Ttngl_FUGBcIyc3avIE0UqmIkmnv6Pju/view?usp=sharing",
 	// portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
 };
 
 const socialMediaLinks = [
 	{
 		name: 'Github',
-		link: 'https://github.com/dineshnadimpalli',
+		link: 'https://github.com/miranaitamara',
 		iconName: 'fa-github',
 		backgroundColor: '#333'
 	},
 	{
 		name: 'LinkedIn',
-		link: 'https://www.linkedin.com/in/dineshnadimpalli/',
+		link: 'https://www.linkedin.com/in/ryma-nait-amara-a10a27135/',
 		iconName: 'fa-linkedin-in',
 		backgroundColor: '#0e76a8'
 	},
 	{
 		name: 'Gmail',
-		link: 'mailto:dinesh601048@gmail.com',
+		link: 'mailto:amarcharacha@gmail.com',
 		iconName: 'fa-google',
 		backgroundColor: '#ea4335'
 	},
 	{
 		name: 'Stack Overflow',
-		link: 'https://stackoverflow.com/users/8238968/dinesh-nadimpalli?tab=profile',
+		link: 'https://stackoverflow.com/users/9818789/r%c3%a0mi',
 		iconName: 'fa-stack-overflow',
 		backgroundColor: '#ef8236'
 	},
 	{
 		name: 'WhatsApp',
-		link: 'tel:+91-88979121499',
+		link: 'tel:+33-0625614951',
 		iconName: 'fa-whatsapp',
 		backgroundColor: '#25D366'
 	}
@@ -100,8 +100,8 @@ const skills = {
 			fileName: "FullStackImg",
 			skills: [
 				"⚡ Building complex user experience for web applications using React & Redux",
-				"⚡ Developing cross-platform mobile applications using React-Native & Redux",
-				"⚡ Creating backend server applications using Node, Express with MongoDB as database",
+				"⚡ Developing cross-platform web applications using NodeJS, React & Redux",
+				"⚡ Creating backend server applications using Node, Express with (MongoDB, MySQL, PostgreSQL) as database",
 			],
 			softwareSkills: [
 				// {
@@ -129,26 +129,18 @@ const skills = {
                         padding: "5px"
 					}
 				},
+				
 				{
-					skillName: "React-Native(Mobile)",
-					fontAwesomeClassname: "simple-icons:react",
+					skillName: "Redux",
+					fontAwesomeClassname: "logos:redux",
 					style: {
 						color: "#61DAFB",
-                        backgroundColor: "#202020",
-                        borderRadius: '50%',
+                        backgroundColor: "#2c2e39",
+                        borderRadius: "60px",
                         padding: "5px"
 					}
 				},
-				{
-					skillName: "ElectronJs",
-					fontAwesomeClassname: "simple-icons:electron",
-					style: {
-						color: "#61DAFB",
-						backgroundColor: '#2c2e39',
-						borderRadius: '50px',
-						padding: '5px'
-					}
-				},
+				
 				{
 					skillName: "NodeJS",
 					fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -159,6 +151,10 @@ const skills = {
 				{
 					skillName: "MongoDB",
 					fontAwesomeClassname: "logos:mongodb",
+				},
+				{
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql",
 				},
 				{
 					skillName: "NPM",
@@ -505,26 +501,29 @@ const experience = {
 	title: "Experience",
 	subtitle: "Work and Internship",
 	description:
-		"Worked with both Product and Service based companies developing web and mobile applications. Active colloborator in tech community forums",
+		"Worked with both Product and Service based companies developing web applications. Active colloborator in tech community forums",
 	header_image_path: "experience.svg",
 	sections: [
 		{
 			title: "Work",
 			experiences: [
 				{
-					title: "Software Engineer",
-					company: "Enquero Global",
-					company_url: "https://www.linkedin.com/company/enquero/",
-					logo_path: "enqueroLogo.gif",
+					title: "Full-Stack Developper",
+					company: "RedAlertLabs",
+					company_url: "https://www.redalertlabs.com/",
+					logo_path: "redalertlabs.jpg",
 					duration: "Oct 2019 - PRESENT",
-					location: "Bengaluru, India",
-					// description:
-					// 	"I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+					location: "Alfortville, France",
+					 description:
+						"Realization of a platform IoTsTrust is a software solution that supports you during the whole life-cycle process of your IoT devices.By guiding you through all your cybersecurity processes, from requirements definition to countermeasures selection, evidence generation, security evaluation and certification, it ensures a fully comprehensive security by design, risk management system and certification Platform.",
 					color: "#0879bf",
 					languages: [
 						{
 							"name": "JavaScript",
 							"iconifyClass": "logos-javascript"
+						},{
+							"name": "NodeJs",
+							"iconifyClass": "logos:nodejs"
 						},
 						{
 							"name": "ReactJS(Web & Mobile)",
@@ -539,45 +538,40 @@ const experience = {
 						{
 							"name": "Redux",
 							"iconifyClass": "logos:redux"
+						},
+						{
+							"name": "MySQL",
+							"iconifyClass": "logos:mysql"
 						}
 					]
 				},
 				{
 					title: "Software Developer",
-					company: "MyAnatomy Integration Pvt Ltd",
-					company_url: "https://www.linkedin.com/company/myanatomy/",
-					logo_path: "myanatomyLogo.png",
-					duration: "Aug 2018 - Sep 2019",
-					location: "Bengaluru, India",
-					// description:
-					// 	"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+					company: "Cerist",
+					company_url: "https://www.linkedin.com/company/cerist/",
+					logo_path: "cerist.png",
+					duration: "Mai 2016 - August 2016",
+					location: "Béjaia, Algérie",
+					description:
+						"Realization of an application on the point system and the management of traffic offenses",
 					color: "#9b1578",
 					languages: [
 						{
 							"name": "JavaScript",
 							"iconifyClass": "logos-javascript"
 						},
+						
 						{
-							"name": "ReactJS(Web & Mobile)",
-							"iconifyClass": "simple-icons:react",
-							"style": {
-								"color": "#61DAFB",
-								"backgroundColor": "#2c2e39",
-								"borderRadius": "50px",
-								"padding": "5px"
-							}
+							"name": "PHP",
+							"iconifyClass": "logos:php"
 						},
 						{
-							"name": "Redux",
-							"iconifyClass": "logos:redux"
+							"name": "BootStrap",
+							"iconifyClass": "logos:bootstrap"
 						},
 						{
-							"name": "NodeJs",
-							"iconifyClass": "logos:nodejs"
-						},
-						{
-							"name": "MongoDB",
-							"iconifyClass": "logos:mongodb"
+							"name": "MySQL",
+							"iconifyClass": "logos:mysql"
 						}
 					]
 				}
@@ -588,11 +582,11 @@ const experience = {
 			experiences: [
 				{
 					title: "Software Development Intern",
-					company: "MyAnatomy Integration Pvt Ltd",
-					company_url: "https://www.linkedin.com/company/myanatomy/",
-					logo_path: "myanatomyLogo.png",
-					duration: "Aug 2018 - Sep 2019",
-					location: "Bengaluru, India",
+					company: "RedAlertLabs",
+					company_url: "https://www.redalertlabs.com/",
+					logo_path: "redalertlabs.jpg",
+					duration: "April 2019 - Sep 2019",
+					location: "Alfortville, France",
 					// description:
 					// 	"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
 					color: "#9b1578",
@@ -620,8 +614,104 @@ const experience = {
 							"iconifyClass": "logos:nodejs"
 						},
 						{
-							"name": "MongoDB",
-							"iconifyClass": "logos:mongodb"
+							"name": "MySQL",
+							"iconifyClass": "logos:mysql"
+						}
+					]
+				},
+				{
+					title: "Software Development Intern",
+					company: "Lamps",
+					company_url: "https://lamps.univ-perp.fr/",
+					logo_path: "lamps.png",
+					duration: "feb 2018 - sept 2018",
+					location: "Perpignan, France",
+					// description:
+					// 	"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+					color: "#9b1578",
+					languages: [
+						{
+							"name": "C/C++",
+							"iconifyClass": "logos:c"
+						},
+						
+						{
+							"name": "Ubuntu",
+							"iconifyClass": "logos:ubuntu"
+						},
+						
+						{
+							"name": "Shell",
+							"iconifyClass": "logos:terminal"
+						}
+					]
+				},
+				{
+					title: "Software Development Intern",
+					company: "SONATRACH",
+					company_url: "https://sonatrach.com/",
+					logo_path: "sonatrach.svg",
+					duration: "jan 2016 - Mar 2016",
+					location: "Béjaia, Algérie",
+					// description:
+					// 	"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+					color: "#9b1578",
+					languages: [
+						{
+							"name": "JavaScript",
+							"iconifyClass": "logos-javascript"
+						}, {
+							"name": "CSS",
+							"iconifyClass": "logos:css-3"
+						},
+						{
+							"name": "HTML",
+							"iconifyClass": "logos:html-5"
+						},
+						
+						{
+							"name": "PHP",
+							"iconifyClass": "logos:php"
+						},
+						
+						{
+							"name": "MySQL",
+							"iconifyClass": "logos:mysql"
+						},
+					
+					]
+				},
+				{
+					title: "Software Development Intern",
+					company: "ENIEM",
+					company_url: "http://www.eniem.com.dz/",
+					logo_path: "eniem.jpg",
+					duration: "April 2015 - july 2015",
+					location: "Béjaia, Algérie",
+					// description:
+					// 	"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+					color: "#9b1578",
+					languages: [
+						{
+							"name": "JavaScript",
+							"iconifyClass": "logos-javascript"
+						},
+						{
+							"name": "CSS",
+							"iconifyClass": "logos:css-3"
+						},
+						{
+							"name": "HTML",
+							"iconifyClass": "logos:html-5"
+						},
+						{
+							"name": "PHP",
+							"iconifyClass": "logos:php"
+						},
+						
+						{
+							"name": "MySQL",
+							"iconifyClass": "logos:mysql"
 						}
 					]
 				}
@@ -704,9 +794,9 @@ const projectsHeader = {
 const contactPageData = {
 	contactSection: {
 		title: "Contact Me",
-		profile_image_path: "newProfilePic.png",
+		profile_image_path: "ryma-circle.png",
 		description:
-			"Feel free to reach out to me on any of the below mentioned media for colloboration or help related to JavaScript, React, React-Native, NodeJs and MongoDb",
+			"Feel free to reach out to me on any of the below mentioned media for colloboration or help related to JavaScript, React, NodeJs(Express), MySQL and MongoDb",
 	},
 	blogSection: {
 		title: "Blogs",
@@ -724,7 +814,7 @@ const contactPageData = {
 	},
 	phoneSection: {
 		title: "Phone Number",
-		subtitle: "+91 8320758513",
+		subtitle: "+33 0625614951",
 	},
 };
 
